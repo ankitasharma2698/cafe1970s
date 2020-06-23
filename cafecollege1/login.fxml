@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="414.0" prefWidth="615.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cafecollege1.LoginController">
+   <children>
+      <ImageView fx:id="img" fitHeight="448.0" fitWidth="620.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@coffee-1569682__340.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="usertxt" layoutX="307.0" layoutY="163.0" prefHeight="45.0" prefWidth="296.0" promptText="username">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="24.0" />
+         </font></TextField>
+      <PasswordField fx:id="passwd" layoutX="307.0" layoutY="221.0" prefHeight="45.0" prefWidth="296.0" promptText="Password">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="24.0" />
+         </font>
+      </PasswordField>
+      <Label fx:id="label" alignment="CENTER" layoutX="260.0" layoutY="37.0" prefHeight="45.0" prefWidth="343.0" text="Login...." textAlignment="JUSTIFY">
+         <font>
+            <Font name="Lucida Handwriting Italic" size="48.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnLogin" defaultButton="true" layoutX="55.0" layoutY="347.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="45.0" prefWidth="177.0" text="Login">
+         <font>
+            <Font name="Copperplate Gothic Light" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnExit" cancelButton="true" layoutX="404.0" layoutY="347.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="45.0" prefWidth="156.0" text="Exit">
+         <font>
+            <Font name="Copperplate Gothic Light" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

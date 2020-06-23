@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="396.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cafecollege1.MainPageController">
+   <children>
+      <ImageView fx:id="img1" fitHeight="429.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@coffee-801781__340.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle fx:id="rect" arcHeight="5.0" arcWidth="5.0" fill="#d2d7ce" height="401.0" opacity="0.03" stroke="BLACK" strokeType="INSIDE" width="600.0" />
+      <Label fx:id="label" layoutX="32.0" layoutY="29.0" prefHeight="64.0" prefWidth="506.0" text="Welcome to Cafe 1970s" textFill="#22e4a0">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnDash" defaultButton="true" layoutX="25.0" layoutY="93.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="107.0" prefWidth="201.0">
+         <font>
+            <Font name="Perpetua Titling MT Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="menuBtn" defaultButton="true" layoutX="296.0" layoutY="100.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="100.0" prefWidth="211.0">
+         <font>
+            <Font name="Perpetua Titling MT Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="orderBtn" defaultButton="true" layoutX="32.0" layoutY="221.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="107.0" prefWidth="192.0">
+         <font>
+            <Font name="Perpetua Titling MT Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="empBtn" defaultButton="true" layoutX="295.0" layoutY="225.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="107.0" prefWidth="211.0" />
+      <ImageView fitHeight="107.0" fitWidth="179.0" layoutX="26.0" layoutY="93.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="140.0" layoutY="120.0" prefHeight="43.0" prefWidth="87.0" text="DashBoard">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="12.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="img1" fitHeight="107.0" fitWidth="100.0" layoutX="295.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@download.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="lb3" layoutX="409.0" layoutY="134.0" prefHeight="25.0" prefWidth="87.0" text="menu">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="12.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="107.0" fitWidth="186.0" layoutX="36.0" layoutY="222.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@download2.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lb4" layoutX="151.0" layoutY="258.0" prefHeight="25.0" prefWidth="59.0" text="order">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="12.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="113.0" fitWidth="211.0" layoutX="295.0" layoutY="224.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images2.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lb5" layoutX="411.0" layoutY="258.0" prefHeight="25.0" prefWidth="94.0" text="Contact">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="12.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnExit" cancelButton="true" layoutX="210.0" layoutY="357.0" mnemonicParsing="false" onAction="#handleButtonAction" text="Exit" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="454.0" prefWidth="595.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cafecollege1.OrderNowController">
+   <children>
+      <AnchorPane layoutY="1.0" prefHeight="114.0" prefWidth="595.0" style="-fx-background-color: #ffe082;">
+         <children>
+            <Label fx:id="label" alignment="CENTER" contentDisplay="TOP" layoutX="192.0" layoutY="44.0" prefHeight="41.0" prefWidth="235.0" style="-fx-translate-z: 1;" text="Order Now">
+               <font>
+                  <Font name="Copperplate Gothic Bold" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <ComboBox fx:id="cmbFood" layoutX="136.0" layoutY="181.0" onAction="#findPrice" prefHeight="25.0" prefWidth="335.0" promptText="CHOOSE THE FOOD ITEM" />
+      <TextField fx:id="txtQty" layoutX="139.0" layoutY="279.0" onAction="#calculateAmount" prefHeight="25.0" prefWidth="335.0" promptText="Quantity Of Order">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="14.0" />
+         </font>
+      </TextField>
+      <Button fx:id="btnPay" layoutX="158.0" layoutY="392.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="25.0" prefWidth="91.0" text="PAY">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnBack" layoutX="370.0" layoutY="392.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="25.0" prefWidth="91.0" text="Back">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="14.0" />
+         </font>
+      </Button>
+      <TextField fx:id="txtPrice" editable="false" layoutX="137.0" layoutY="231.0" prefHeight="25.0" prefWidth="335.0" promptText="Price of the Food">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtAmount" editable="false" layoutX="321.0" layoutY="324.0" prefHeight="26.0" prefWidth="155.0" promptText="Final Amount">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="14.0" />
+         </font>
+      </TextField>
+      <Label layoutX="147.0" layoutY="330.0" text="TOTAL AMOUNT TO PAY :">
+         <font>
+            <Font name="Copperplate Gothic Light" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

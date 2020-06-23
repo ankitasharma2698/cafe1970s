@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" fx:id="img" prefHeight="499.0" prefWidth="598.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="cafecollege1.MenuCardController">
+   <children>
+      <ImageView fitHeight="530.0" fitWidth="598.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@coffee-2364337__340.1.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="label1" alignment="CENTER" layoutX="196.0" layoutY="30.0" prefHeight="48.0" prefWidth="244.0" text="Carte">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="label2" layoutX="80.0" layoutY="84.0" prefHeight="37.0" prefWidth="435.0" text="1. Cappucino            Rs.150">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="label3" layoutX="80.0" layoutY="132.0" prefHeight="37.0" prefWidth="405.0" text="2. Kulhad Tea             Rs.40">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="label4" layoutX="80.0" layoutY="177.0" prefHeight="37.0" prefWidth="435.0" text="3. SandWich                   Rs.70">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="label4" layoutX="80.0" layoutY="218.0" prefHeight="37.0" prefWidth="413.0" text="4. Pizza                          Rs.150">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="label6" layoutX="80.0" layoutY="270.0" prefHeight="37.0" prefWidth="424.0" text="5. Burgers                   Rs.100">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="label7" layoutX="80.0" layoutY="324.0" prefHeight="37.0" prefWidth="424.0" text="6. French Fries          Rs. 70">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnBack" layoutX="47.0" layoutY="418.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="37.0" prefWidth="147.0" text="Back">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
